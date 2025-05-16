@@ -60,4 +60,15 @@ public class Cliente {
     public void setTelefono(String telefono){
         this.telefono = telefono;
     }
+
+    public void realizarOrden(Orden orden) {
+        System.out.println(nombre + " ha realizado una orden con ID: " + orden.getIdOrden());
+    }
+
+    public void actualizarDatos(String nombre, String correo, String direccion, String telefono) {
+        this.nombre = nombre;
+        this.correo = correo;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
 }
