@@ -27,6 +27,10 @@ public class Orden {
             factura += p.getPrecio();
         }
     }
+    
+    public List<Producto> getProductos() {
+        return productos;
+    }
 
     public void agregarProducto(Producto producto) {
         productos.add(producto);

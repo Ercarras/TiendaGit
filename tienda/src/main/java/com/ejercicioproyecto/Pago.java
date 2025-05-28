@@ -24,4 +24,8 @@ public class Pago {
         this.pagado = true;
         return true;
     }
+
+    public boolean isPagado() {
+        return pagado;
+    }
 }
